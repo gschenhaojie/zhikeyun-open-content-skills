@@ -1,0 +1,4 @@
+interface:
+  display_name: "内容质检 Skill Open"
+  short_description: "判断单篇待发布内容能否发布，并给出最多三项优先修改建议"
+  default_prompt: "使用 $content-quality-check 检查这篇待发布内容，给出发布结论和最多三项优先修改建议。"
