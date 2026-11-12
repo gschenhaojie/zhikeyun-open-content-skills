@@ -1,40 +1,27 @@
-name: 新建议
-description: 建议改进说明、规则或新的公开 Skill
-title: "[建议] "
+name: 文档建议
+description: 修正说明、链接或使用边界；已有规则误判请提交反例
+title: "[文档] "
 labels: []
 body:
   - type: markdown
     attributes:
-      value: 请先说明真实问题和使用场景，不需要为了完整而设计复杂系统。
+      value: 如果已有输入和实际输出能说明规则不成立，请改用“提交一个反例”表单。
   - type: textarea
     id: problem
     attributes:
-      label: 想解决的问题
-      description: 谁在什么场景下遇到了什么问题？
+      label: 说明哪里需要修改
+      description: 提供文件位置、当前表述和修改理由；不要粘贴敏感材料。
     validations:
       required: true
   - type: textarea
     id: proposal
     attributes:
-      label: 建议方案
-      description: 请说明建议的范围、预期输出和已知限制。
-    validations:
-      required: true
-  - type: dropdown
-    id: evidence_type
-    attributes:
-      label: 材料类型
-      options:
-        - 不附案例
-        - 真实且已匿名
-        - 获得授权的匿名材料
-        - 明确标注的构造示例
-    validations:
-      required: true
+      label: 建议如何表达
+      description: 可提供改写建议，无法确定时说明疑问即可。
   - type: checkboxes
     id: safety
     attributes:
       label: 提交确认
       options:
-        - label: 我不会提交客户隐私、编造数据或未经授权资料。
+        - label: 所附材料有权公开，且已经脱敏，没有补造事实或反馈。
           required: true

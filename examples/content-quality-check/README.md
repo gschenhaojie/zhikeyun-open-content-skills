@@ -1,11 +1,11 @@
 # 内容质检测试资料
 
-本目录保存“内容质检 Skill Open v0.1”的公开测试输入与验收规则，不保存生产级规则。
+当前公开方法入口为 [v0.2 draft](../../skills/content-quality-check/SKILL.md)。以下材料来自 v0.1 历史轮次，状态与当前规则分开记录。
 
-- [constructed-tests.md](constructed-tests.md) 是为验证行为边界而编写的构造测试，不是真实客户案例，也不代表真实用户反馈。
-- [acceptance-rubric.md](acceptance-rubric.md) 是跨案例统一使用的验收规则，不提供逐题标准答案。
-- [public/](public/README.md) 保存内容所有者明确授权公开的真实内容、隔离质检输出和人工验收结论。
+- [constructed-tests.md](constructed-tests.md)：原有构造输入，已去除金额和结果数字，并编辑部分措辞；修改后未重跑。
+- [acceptance-rubric.md](acceptance-rubric.md)：本轮更新的人工核对方法，不是已执行的测试报告。
+- [public/](public/README.md)：原有三篇授权案例的脱敏历史整理，输入与输出均有编辑。
 
-前向测试时，让测试者只读取 [SKILL.md](../../skills/content-quality-check/SKILL.md) 和被分配的原始输入，先独立生成结果；完成全部案例后，再由评审者依据验收规则统一检查。
+历史记录记载 v0.1 曾执行构造和真实案例回归；当前材料已变更，不能据此复现或继承原轮次的通过结论。后续测试应先读取 Skill 和输入，完成独立输出后再按验收规则核对。本轮未执行该步骤。
 
-构造测试和真实案例承担不同作用，不能相互冒充。真实公开案例必须来自知客云自有、真实且获得授权的内容，并在发布前完成匿名化与人工复核。
+缺少真实弱内容的验证仍保留为 [TODO(需样本)](../../docs/validation-status.md)，不能以重新编写定义代替样本验证。
