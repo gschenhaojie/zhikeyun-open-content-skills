@@ -14,7 +14,7 @@
 
 | 名称 | 解决什么问题 | 状态 |
 | --- | --- | --- |
-| [content-quality-check](skills/content-quality-check/SKILL.md) | 检查单篇内容，区分实质问题与风格偏好，指出优先修改项 | v0.2 draft |
+| [content-quality-check](skills/content-quality-check/SKILL.md) | 检查单篇内容，区分实质问题与风格偏好，指出优先修改项 | v0.2.1 draft |
 | [data-review](skills/data-review/SKILL.md) | 分清曝光、点击、停留、咨询和有效线索，说明数据支持什么判断 | v0.1 draft |
 | [cover-strategy](skills/cover-strategy/SKILL.md) | 核对标题和封面的承诺是否在正文中兑现 | v0.1 draft |
 

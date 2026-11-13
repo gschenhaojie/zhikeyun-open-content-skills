@@ -4,7 +4,7 @@
 
 | 模块 | 版本与状态 | 用途 |
 | --- | --- | --- |
-| [content-quality-check](content-quality-check/SKILL.md) | v0.2 draft | 检查单篇正文的结构、信息与事实支持 |
+| [content-quality-check](content-quality-check/SKILL.md) | v0.2.1 draft | 检查单篇正文的结构、信息与事实支持 |
 | [data-review](data-review/SKILL.md) | v0.1 draft | 核对从曝光到有效线索的指标口径 |
 | [cover-strategy](cover-strategy/SKILL.md) | v0.1 draft | 检查标题封面的承诺是否被正文兑现 |
 

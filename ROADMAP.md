@@ -2,7 +2,7 @@
 
 | 模块 | 当前版本 | 状态 | 下一项工作 |
 | --- | --- | --- | --- |
-| content-quality-check | v0.2 | draft | 用已授权弱内容及不同文体核对判断方法 |
+| content-quality-check | v0.2.1 | draft | 用已授权弱内容及不同文体核对判断方法 |
 | data-review | v0.1 | draft | 独立检查口径核对行为与数据不足时的判断 |
 | cover-strategy | v0.1 | draft | 独立检查承诺与正文位置的对应判断 |
 
